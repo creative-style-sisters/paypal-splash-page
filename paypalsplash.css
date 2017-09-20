@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Source+Sans+Pro');
+
+body {
+  padding-top: 70px;
+}
+
+nav {
+  background: #016FB9; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #016FB9 , #1547A0); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #016FB9, #1547A0); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #016FB9, #1547A0); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #016FB9, #1547A0); /* Standard syntax */
+  height: 10%;
+}
+
+.navbar-fixed-top {
+  border-style: none;
+  height:70px;
+}
+
+.navbar-brand {
+	position: absolute;
+	top: 15%;
+}
+
+.navbar-btn {
+	position: absolute;
+	top: 15%;
+	margin-right: 10%;
+	width: 70px;
+	height: 35px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 18px;
+	text-align: center;
+	margin-right: 5%;
+	border-width: 1px;
+	background-color: transparent;
+	color: white;
+}
+
+.login {
+	margin-right: 100px;
+}
+.navbar{
+  margin-bottom:0px;
+
+}
+.jumbotron {
+    position:relative;
+    background: #000 url("images/working.png") center center;
+    width: 100%;
+    height:300px;
+    margin-top:0;
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4{
+  font-size:15px;
+
+}
+
+.header-content {
+  color: #fff;
+  margin-left: 15%;
+  margin-right:60%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-content button {
+  position: relative;
+  width: 220px;
+  background-color: white;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  top: 60%;
+}
+
+.header-btn {
+  color: #000;
+}
+
+.content-navbar {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 3%;
+}
+
+.content-section {
+	border-top: 1px solid #000;
+   margin-top: 100px;
+   margin-left: 120px;
+   margin-bottom: 50px;
+   margin-right: 120px;
+}
+
+.works {
+	width: 350px;
+}
+
+footer li {
+ display: inline;
+ padding: 10px;
+}
+
+.footer-one {
+margin-top: 200px;
+}
+
+.footer-one a {
+	color: #979797;
+}
+
+.footer-two {
+	border-top: 1px dotted #000;
+	padding-top: 10px;
+	color: #A8A8A8;
+}
+
+.footer-two a {
+	color: #A8A8A8;
+}
+.well.well-sm{
+  padding-left:60px;
+  width:440px;
+  text-align:center;
+  border-radius:5px;
+}
+.example{
+  background-color:#fff;
+  height:35px;
+  width:370px;
+  text-align:left;
+  border-radius:4px;
+}
+p{
+  position:relative;
+  top:5px;
+  left:3px;
+  font-size:13px;
+}
+.numberCircle{
+    vertical-align: top;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 1px solid #d8d8d8;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 6px;
+    display: inline-block;
+    margin-right: 20px;
+    float:left;
+}
+div.col-xs-6.col-md-4{
+  display:inline-block;
+  margin:0px;
+  float:left;
+  text-align:left;
+}
+
+.paypalBlock{
+  background: #f4f4f4;
+  border:1px solid #ddd;
+  padding-left:4px;
+  padding-right:4px;
+  border-radius:5px;
+}
+.btn.btn-primary.add-btn{
+  border-radius:28px;
+  height:50px;
+  width:400px;
+}
